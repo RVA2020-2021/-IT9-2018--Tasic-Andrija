@@ -33,7 +33,7 @@ VALUES (nextval('tim_seq'), 'Barselona', to_date('29.11.1899.','dd.mm.yyyy.'), '
 INSERT INTO "tim"("id","naziv", "osnovan", "sediste", "liga")
 VALUES (nextval('tim_seq'), 'West Ham United', to_date('07.06.1995.','dd.mm.yyyy.'), 'London',3);
 INSERT INTO "tim"("id","naziv", "osnovan", "sediste", "liga")
-VALUES (nextval('tim_seq'), 'Borusija Dortmund', to_date('19.12.1909.','dd.mm.yyyy.'), 'Dortmund',4);
+VALUES (nextval('tim_seq'), 'Manchester United', to_date('19.12.1909.','dd.mm.yyyy.'), 'Manchester',4);
 
 INSERT INTO "igrac"("id", "ime", "prezime", "broj_reg", "datum_rodjenja", "nacionalnost", "tim")
 VALUES (nextval('igrac_seq'), 'Milan', 'Borjan','1782',to_date('23.10.1987.','dd.mm.yyyy.'),2,1);
